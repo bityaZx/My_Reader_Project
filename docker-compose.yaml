@@ -23,8 +23,8 @@ services:
         - prisma_ca
     environment:
       DATABASE_URL: ${DATABASE_URL:?Set DATABASE_URL in .env}
-      NODE_ENV: ${NODE_ENV:-production}
-      NODE_OPTIONS: ${NODE_OPTIONS:---dns-result-order=ipv4first}
+      NODE_ENV: ${NODE_ENV:?Set NODE_ENV in .env}
+      NODE_OPTIONS: ${NODE_OPTIONS:?Set NODE_OPTIONS in .env}
     command: sh -c "npx prisma migrate deploy && npm run start:prod"
     ports:
       - "127.0.0.1:3000:3000"
@@ -51,9 +51,9 @@ services:
       args:
         NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:?Set NEXT_PUBLIC_API_URL in .env}
     environment:
-      NODE_ENV: ${NODE_ENV:-production}
-      NODE_OPTIONS: ${NODE_OPTIONS:---dns-result-order=ipv4first}
-      HOSTNAME: ${HOSTNAME:-0.0.0.0}
+      NODE_ENV: ${NODE_ENV:?Set NODE_ENV in .env}
+      NODE_OPTIONS: ${NODE_OPTIONS:?Set NODE_OPTIONS in .env}
+      HOSTNAME: ${HOSTNAME:?Set HOSTNAME in .env}
     ports:
       - "127.0.0.1:3001:3000"
     depends_on:
