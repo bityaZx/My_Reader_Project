@@ -1,8 +1,8 @@
 import './globals.scss'
 import localFont from 'next/font/local';
+import Provider from "@/utils/provider";
 import Navbar from "@/app/components/navbar/navbar.component";
 import Footer from "@/app/components/footer/footer.component";
-import Provider from "@/utils/provider";
 
 const iranYekanFont = localFont({
     src: '../../public/fonts/IranYekan/IranYekan.ttf',

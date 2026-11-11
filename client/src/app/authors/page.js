@@ -8,7 +8,6 @@ import AuthorCard from "@/app/components/author-card/author-card.component";
 import Pagination from "@/app/components/pagination/pagination.component";
 import {useState} from "react";
 import {useQuery} from "@tanstack/react-query";
-import process from "next/dist/build/webpack/loaders/resolve-url-loader/lib/postcss";
 import Loader from "@/app/components/loader/loader.component";
 
 const fetchUsers = (page = 1) =>

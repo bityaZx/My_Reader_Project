@@ -2,7 +2,6 @@
 
 import PostCardXl from "@/app/components/post-card-xl/post-card-xl.component";
 import WidgetsBar from "@/app/components/widgets-bar/widgets-bar.component";
-import process from "next/dist/build/webpack/loaders/resolve-url-loader/lib/postcss";
 import {useState} from "react";
 import {useQuery} from "@tanstack/react-query";
 import Pagination from "@/app/components/pagination/pagination.component";

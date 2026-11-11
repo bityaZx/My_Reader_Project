@@ -1,7 +1,6 @@
 'use client';
 
 import PostInfo from "@/app/components/post-info/post-info.component";
-import process from "next/dist/build/webpack/loaders/resolve-url-loader/lib/postcss";
 import {useQuery} from "@tanstack/react-query";
 import ReactMarkdown from "react-markdown";
 import Comments from "@/app/blog/[slug]/comments";

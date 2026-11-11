@@ -10,7 +10,6 @@ import Section from "@/app/components/section/section.component";
 import Container from "@/app/components/container/container.component";
 import SectionTitle from "@/app/components/section/section-title.component";
 import {useQuery} from "@tanstack/react-query";
-import process from "next/dist/build/webpack/loaders/resolve-url-loader/lib/postcss";
 
 
 const fetchLatestPost = () =>

@@ -3,7 +3,6 @@
 import {redirect, useSearchParams} from "next/navigation";
 import {useState} from "react";
 import {useQuery} from "@tanstack/react-query";
-import process from "next/dist/build/webpack/loaders/resolve-url-loader/lib/postcss";
 import PostCardLg from "@/app/components/post-card-lg/post-card-lg.component";
 import Pagination from "@/app/components/pagination/pagination.component";
 import Section from "@/app/components/section/section.component";

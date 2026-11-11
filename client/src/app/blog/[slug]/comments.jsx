@@ -2,11 +2,9 @@
 
 import moment from "jalali-moment";
 import Button from "@/app/components/button/button.component";
-import process from "next/dist/build/webpack/loaders/resolve-url-loader/lib/postcss";
 import {useState} from "react";
 import Input from "@/app/components/input/input.component";
 import {toast, ToastContainer, Zoom} from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 import {useMutation, useQuery} from "@tanstack/react-query";
 
 moment.locale('fa', {useGregorianParser: true});

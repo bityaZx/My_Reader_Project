@@ -1,7 +1,6 @@
 'use client';
 
 import {useQuery} from "@tanstack/react-query";
-import process from "next/dist/build/webpack/loaders/resolve-url-loader/lib/postcss";
 import Section from "@/app/components/section/section.component";
 import PostCardXl from "@/app/components/post-card-xl/post-card-xl.component";
 import styles from './author.module.scss'

@@ -1,4 +1,3 @@
-import './widget-card.scss'
 
 const Widget = ({widgetTitle, children, ...otherPops}) => {
     return (

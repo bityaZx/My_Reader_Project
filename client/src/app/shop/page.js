@@ -7,7 +7,6 @@ import Container from "@/app/components/container/container.component";
 import Section from "@/app/components/section/section.component";
 import {useState} from "react";
 import {useQuery} from "@tanstack/react-query";
-import process from "next/dist/build/webpack/loaders/resolve-url-loader/lib/postcss";
 import Pagination from "@/app/components/pagination/pagination.component";
 import Loader from "@/app/components/loader/loader.component";
 

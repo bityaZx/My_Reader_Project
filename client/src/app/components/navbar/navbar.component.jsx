@@ -1,7 +1,6 @@
 "use client";
 
 import SearchBar from "@/app/components/search-bar/search-bar.component";
-import './navbar.scss'
 import Logo from "@/app/components/logo/logo.component";
 import Link from "next/link";
 import {useEffect, useRef} from "react";
